@@ -568,6 +568,14 @@ ul { list-style: none; }
     transition: var(--transition);
 }
 
+.project-date {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--accent-light);
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+
 .project-card:hover .project-title {
     color: var(--accent-light);
 }
